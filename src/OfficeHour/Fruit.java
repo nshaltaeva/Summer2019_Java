@@ -16,6 +16,33 @@ public class Fruit {
 		
 		System.out.println("I like 'apple' ");
 		System.out.println("Java is \"fun\"!");
+		
+		
+		double beforeTax = 67.85;
+		double taxRate = 0.09;
+		double aftertax = (beforeTax*taxRate)+beforeTax;
+		
+		System.out.println("Before tax the price is "+beforeTax+", after tax the price will be "+aftertax);		
+		
+		double afterTax = beforeTax += beforeTax*taxRate;
+		System.out.println(afterTax);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

@@ -35,7 +35,7 @@ public class PrimitiveCasting {
 			System.out.println(IntNum2);
 			System.out.println(IntNum3);
 			
-//implisit casting
+//implicit casting
 			byte ByteNum = 100;
 			int IntNum4 = ByteNum;
 			//same with

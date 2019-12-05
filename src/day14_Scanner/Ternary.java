@@ -132,14 +132,15 @@ Group = (FinalGrade == 'A') ? "Early Birds"
 	
 	System.out.println(Finals);
 	
-	int n1 = 100000, n2 = 3000, n3 = 400;
+	int n1 = 100000, n2 = 300000000, n3 = 400;
 	
 	int max = (n1>n2 && n1>n3) ? n1
 			: (n2>n1 && n2>n3) ? n2
 					:n3;
 	System.out.println(max);
 	
-	
+	int max1 = (n1>n2)?n1:n2;
+	System.out.println(max1);
 	
 	
 	

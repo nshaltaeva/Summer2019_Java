@@ -17,6 +17,27 @@ public class increment {
 			System.out.println("it is zero");
 		}
 		
+	 double d = 12.4;
+	 short sh = (short)d;
+	 System.out.println(sh);
+	 
+	 double g = 459.64;
+	 int Int = (int)g;
+	 System.out.println(Int);
+	 
+	 double d2 = (int)459.64;
+	 System.out.println(d2);
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 		
 }
 }
